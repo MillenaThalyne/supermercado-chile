@@ -1,4 +1,10 @@
 # 🛒 Supermercado Chile
+
+> **Autoria**: Millena Thalyne <br>
+> **Curso**: Profissão Cientista de Dados - EBAC <br>
+> **Linguagem**: Python <br>
+> **Bibliotecas Utilizadas**: Pandas, Matplotlib e Plotly <br>
+
 ## Objetivo
 Esse projeto foi disponibilizado na Profissional Cientista de Dados da EBAC e trabalha com uma base de dados de produtos de um supermercado do Chile, com a ideia de aplicar conceitos estatísticos e visualizações de dados através de gráficos.
 
@@ -11,6 +17,9 @@ Identifiquei que as categorias: instantaneos-y-sopas, verduras, frutas, belleza-
 Na categoria 'lacteos', que possui o maior desvio padrão dentre as demais, contém diversos dados que estão bem acima da média. A verificação desse fato foi realizada através de um gráfico de Boxplot. 
 
 ## Gráficos
-- Gráfico de barras da média de descontos por categoria: Através da análise dessa visualização, é possível notar que a categoria 'congelados' possui a maior quantidade de desconto, seguido pela categoria 'belleza-y-cuidado-personal' e 'comidas-preparadas'. <br> 
-- Densidade de média de desconto por categoria: Esse gráfico confirmou a distribuição dos descontos nessas categorias, porém com um adicional de visualização das outliers para cada categoria. A categoria com maior concentração de dados discrepantes para a média de descontos é a 'congelados', seguido de 'lacteos' e 'belleza-y-cuidado-personal'; 'frutas', 'instantaneos-y-sopas' e 'verduras' não possuem desconto. <br>
-- Distribuição de Descontos por Categoria e Marca: Esse gráfico foi o mais rico para poder visualizar a distribuição das categorias e das marcas dos produtos, sendo 'belleza-y-cuidado-personal' e 'congelados' as categorias que mais possuem variedade de marcas em seus produtos. 
+- **Gráfico de barras da média de descontos por categoria**: Através da análise dessa visualização, é possível notar que a categoria 'congelados' possui a maior quantidade de desconto, seguido pela categoria 'belleza-y-cuidado-personal' e 'comidas-preparadas'. <br> 
+- **Densidade de média de desconto por categoria**: Esse gráfico confirmou a distribuição dos descontos nessas categorias, porém com um adicional de visualização das outliers para cada categoria. A categoria com maior concentração de dados discrepantes para a média de descontos é a 'congelados', seguido de 'lacteos' e 'belleza-y-cuidado-personal'; 'frutas', 'instantaneos-y-sopas' e 'verduras' não possuem desconto. <br>
+- **Distribuição de Descontos por Categoria e Marca**: Esse gráfico foi o mais rico para poder visualizar a distribuição das categorias e das marcas dos produtos, sendo 'belleza-y-cuidado-personal' e 'congelados' as categorias que mais possuem variedade de marcas em seus produtos. 
+
+## Observações
+*Como os gráficos foram realizados na biblioteca Plotly, do Python, recomendo baixar o notebook para melhor visualização das interações.*
